@@ -10,6 +10,13 @@ namespace modul4_1302200016
     {
         static void Main(string[] args)
         {
+            SimpleDataBase<int> simpleDataBase = new SimpleDataBase<int>();
+
+            simpleDataBase.AddNewData(13);
+            simpleDataBase.AddNewData(02);
+            simpleDataBase.AddNewData(20);
+
+            simpleDataBase.PrintAllData();
         }
     }
 }
