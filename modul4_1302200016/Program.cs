@@ -10,6 +10,7 @@ namespace modul4_1302200016
     {
         static void Main(string[] args)
         {
+            // Menampilkan Simple Database dan Penjumlahan
             SimpleDataBase<int> simpleDataBase = new SimpleDataBase<int>();
 
             simpleDataBase.AddNewData(13);
