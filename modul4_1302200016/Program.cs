@@ -10,6 +10,14 @@ namespace modul4_1302200016
     {
         static void Main(string[] args)
         {
+            int bil1 = 13;
+            int bil2 = 02;
+            int bil3 = 20;
+
+            Penjumlahan<int> penjumlahan = new Penjumlahan<int>();
+            int result = penjumlahan.JumlahTigaAngka(bil1, bil2, bil3);
+
+            Console.WriteLine(result);
         }
     }
 }
